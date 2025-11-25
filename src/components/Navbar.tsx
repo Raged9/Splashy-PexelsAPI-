@@ -13,7 +13,7 @@ export default function MyNavbar() {
         bg="dark"
         data-bs-theme="dark" 
         expand="lg" 
-        className="shadow sticky-top mb-4 py-3"
+        className="shadow sticky-top py-3"
       >
         <Container>
           <Navbar.Brand as={Link} href="/" className="d-flex align-items-center">

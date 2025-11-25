@@ -12,7 +12,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Feeds Gallery App",
+  title: "Splashy - Feeds Ideas Website",
 };
 
 export default function RootLayout({
@@ -27,8 +27,8 @@ export default function RootLayout({
         <main style={{ minHeight: '80vh' }}>
           {children}
         </main>
-        <footer className="text-center py-4 text-muted mt-5 border-top">
-          <small>&copy; Feeds Project (PexelsAPI). Built with Next.js & Bootstrap.</small>
+        <footer className="text-center py-4 text-muted border-top">
+          <small>&copy; Splashy (PexelsAPI). Built with Next.js & Bootstrap.</small>
         </footer>
 
       </body>
