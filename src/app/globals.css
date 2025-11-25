@@ -3,6 +3,19 @@
   --foreground: #171717;
 }
 
+.nav-link-custom {
+  color: white ;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  margin-right: 15px;
+  }
+        
+.nav-link-custom:hover {
+  transform: scale(1.15);
+  font-weight: bold;
+  border-bottom: 2px solid #0dcaf0;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
