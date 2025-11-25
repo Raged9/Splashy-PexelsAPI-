@@ -121,9 +121,7 @@ export default function Home() {
         <Row className="align-items-center my-5 py-4">
           <Col md={6} className="mb-4 mb-md-0">
             <img 
-              src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600" 
-              alt="Tech Stack" 
-              className="img-fluid rounded shadow-lg border border-secondary"
+              src="/images/techstacks.png" 
             />
           </Col>
           <Col md={6}>
